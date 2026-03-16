@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cho Em Một Lời Yêu...</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        
+        <div class="main-content">
+            <h1 class="title">Gửi Em...</h1>
+            
+            <div class="love-letter">
+                <p class="message">
+                    Từ ngày em xuất hiện trong cuộc đời tôi,<br>
+                    Mọi thứ đều trở nên thật đặc biệt.<br><br>
+                    
+                    Ánh mắt em như những vì sao,<br>
+                    Nụ cười em như ánh nắng mai.<br><br>
+                    
+                    Tôi muốn nói với em rằng:<br>
+                    <strong>Yêu em là điều tuyệt vời nhất</strong><br>
+                    mà cuộc sống đã ban tặng cho tôi.<br><br>
+                    
+                    Bạn có muốn trở thành người đồng hành<br>
+                    cùng tôi trên hành trình này không?<br>
+                </p>
+                
+                <div class="heart-container">
+                    <div class="heart"></div>
+                </div>
+                
+                <div class="buttons">
+                    <button class="btn yes" onclick="showAnswer('yes')">Có, Em Đồng Ý! ❤️</button>
+                    <button class="btn no" onclick="showAnswer('no')">Cần Thời Gian...</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with 💕 by Someone Who Loves You</p>
+        </div>
+    </div>
+    
+    <div id="answer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
